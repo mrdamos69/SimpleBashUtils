@@ -1,0 +1,14 @@
+What is your attitude to the goto operator in C/C++ languages?
+Most likely, when you learned to program,
+
+
+You used it. Then you found out that it was bad,
+and you forgot about it. Although sometimes with complex error handling...
+no, no, there's try... throw... catch.
+Or to exit nested loops ... no,
+there are flags and a lot of difficulties.
+Or when nested switch... no, no, no, there are the same flags.
+
+
+And yet, sometimes in the silence of the night you allowed a sinful thought into your subconscious - "why not use goto here?
+And the program seems to be slimmer, and it comes out optimally. Yes, it would be good. But no, you can't, you forgot!".

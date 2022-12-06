@@ -1,5 +1,5 @@
-#ifndef SRC_CAT_S21_CAT_H_
-#define SRC_CAT_S21_CAT_H_
+#ifndef CAT_S21_CAT_H_
+#define CAT_S21_CAT_H_
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -17,4 +17,4 @@ typedef struct cat_specificator {
 
 int open_file(FILE *file, char* argv, char* file_name, cat_spec spec_file);
 
-#endif  // SRC_CAT_S21_CAT_H_
+#endif  // CAT_S21_CAT_H_

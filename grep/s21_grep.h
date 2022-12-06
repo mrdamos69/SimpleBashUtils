@@ -1,5 +1,5 @@
-#ifndef SRC_GREP_S21_GREP_H_
-#define SRC_GREP_S21_GREP_H_
+#ifndef GREP_S21_GREP_H_
+#define GREP_S21_GREP_H_
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -24,4 +24,4 @@ int *count_name);
 void spec_v_and_o(grep_spec spec_file, char* buffer, char* temp_name,
 int *reti, int *size_line);
 
-#endif  // SRC_GREP_S21_GREP_H_
+#endif  // GREP_S21_GREP_H_

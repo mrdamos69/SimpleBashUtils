@@ -18,8 +18,8 @@ leaks: s21_cat
 	@leaks --atExit -- ./s21_grep -benst test_file/all_flag_tests/*
 
 style: s21_cat
-	@cp ../../materials/linters/CPPLINT.cfg ./
-	@python3 ./../../materials/linters/cpplint.py --extensions=c s21_cat.c s21_cat.h
+	@cp ../materials/linters/CPPLINT.cfg ./
+	@python3 ./../materials/linters/cpplint.py --extensions=c s21_cat.c s21_cat.h
 	@rm -f CPPLINT.cfg
 
 cppcheck: s21_cat

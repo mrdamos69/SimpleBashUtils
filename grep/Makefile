@@ -18,8 +18,8 @@ leaks: s21_grep
 	@leaks --atExit -- ./s21_grep -benst test_file/all_flag_tests/*
 
 style: s21_grep
-	@cp ../../materials/linters/CPPLINT.cfg ./
-	@python3 ./../../materials/linters/cpplint.py --extensions=c s21_grep.c s21_grep.h
+	@cp ../materials/linters/CPPLINT.cfg ./
+	@python3 ./../materials/linters/cpplint.py --extensions=c s21_grep.c s21_grep.h
 	@rm -f CPPLINT.cfg
 
 cppcheck: s21_grep
